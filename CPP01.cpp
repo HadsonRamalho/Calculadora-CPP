@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cctype>
 
 using namespace std;
 
@@ -15,7 +16,7 @@ void soma();
 void subtracao();
 void multiplicacao();
 void divisao();
-void ContinueOp(); 
+void ContinueOp();
 void OpMenu();
 
 // inicia a calculadora
@@ -63,9 +64,9 @@ void multiplicacao(){
 	cout << "Ultimo resultado:     | " << PrevNum  << " | " << endl;
 	cin >> Num1;
 	cout << "* ";
-	cin >> Num2; 
+	cin >> Num2;
 	MultResult = Num1 * Num2;
-	cout << " = " << MultResult << endl; 
+	cout << " = " << MultResult << endl;
 	
 	PrevNum += MultResult;
 	if(Prev == true){
@@ -110,10 +111,9 @@ void soma(){
 	cout << "     Ultimo resultado:     | " << PrevNum  << " | " << endl;
 	cin >> Num1;
 	cout << "+ ";
-	cin >> Num2; 
+	cin >> Num2;
 	SoResult = Num1 + Num2;
 	cout << " = " << SoResult << endl;
-	
 	PrevNum += SoResult;
 	if(Prev == true){
 		cout << " + " << LResult << endl;  
@@ -188,7 +188,6 @@ void ContinueOp(){
 			cout << "Opcao invalida! Digite novamente." << endl;
 			ContinueOp();
 			break;
-	}
+	}//
 	
 }
-
