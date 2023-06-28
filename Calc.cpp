@@ -208,15 +208,19 @@ void OpMenu() {
         soma();
         break;
     case 2:
+    	Limpar();
         subtracao();
         break;
     case 3:
+    	Limpar();
         multiplicacao();
         break;
     case 4:
+    	Limpar();
         divisao();
         break;
     case 0:
+    	Limpar();
         cout << "Fechando a calculadora!" << endl;
         break;
     default:
