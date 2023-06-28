@@ -76,7 +76,7 @@ void divisao() {
     if(inv == 0) {
         Num1 = atof(NumA);
         Num2 = atof(NumB);
-        SoResult = Num1 / Num2;
+        DivResult = Num1 / Num2;
         cout << " = " << DivResult << endl;
         PrevNum += DivResult;
 
@@ -85,7 +85,7 @@ void divisao() {
             cout << "O resultado das operacoes e: " << PrevNum << endl;
             LResult = PrevNum;
         } else {
-            cout << "O resultado da soma e: " << DivResult << endl;
+            cout << "O resultado da divisao e: " << DivResult << endl;
             LResult = DivResult;
         }
     } else {}
@@ -118,7 +118,7 @@ void multiplicacao() {
             cout << "O resultado das operacoes e: " << PrevNum << endl;
             LResult = PrevNum;
         } else {
-            cout << "O resultado da divisao e: " << MultResult << endl;
+            cout << "O resultado da multiplicacao e: " << MultResult << endl;
             LResult = MultResult;
         }
     } else {}
@@ -184,7 +184,7 @@ void subtracao() {
             cout << "O resultado das operacoes e: " << PrevNum << endl;
             LResult = PrevNum;
         } else {
-            cout << "O resultado da divisao e: " << SubResult << endl;
+            cout << "O resultado da subtracao e: " << SubResult << endl;
             LResult = SubResult;
         }
     } else {}
