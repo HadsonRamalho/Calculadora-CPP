@@ -57,7 +57,7 @@ char ver(char NumA[16]){
 			inv = inv + 0;
 		}
 	}
-	
+	return 0;
 }
 
 
